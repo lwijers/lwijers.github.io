@@ -1,0 +1,31 @@
+
+
+#dropdownMenuButton {
+  width: 30px;
+  height: auto;
+}
+
+#dropdownMenuButton:hover {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  box-shadow: none;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-radius: 0px;
+  border-left: 3px solid white
+
+}
+
+.dropdown-menu a {
+  color: white !important;
+  background-image: none;
+  cursor: pointer;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: rgba(0,0,0,0);
+}

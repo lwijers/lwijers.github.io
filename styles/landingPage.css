@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Lilita+One" );
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+#landingScreen {
+  /* height: 100vh; */
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  color: white
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  white-space: nowrap;
+}
+
+.dropdown {
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.centerText {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+  h1  {
+  font-size: 80px;
+  /* padding: calc(100vh/2) 0; */
+  position:absolute;
+  text-align: center;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ h2 {
+  font-size: 25px;
+  padding: calc(100vh/2) 0;
+  position:absolute;
+  text-align: center;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+
+}

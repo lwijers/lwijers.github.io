@@ -1,0 +1,20 @@
+
+@import url("dropdown.css");
+@import url("landingPage.css");
+@import url("personalPage.css");
+
+body {
+  width: 100%;
+  background-color: rgb(23, 129, 215);
+  transition: background-color 2s ease;
+  cursor: default;
+}
+
+.section {
+  height: calc(100vh + 400px);
+  border: 2px solid yellow;
+}
+
+.content{
+  height: 100vh;
+}

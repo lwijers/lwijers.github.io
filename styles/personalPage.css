@@ -1,0 +1,39 @@
+#personalScreen  {
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.infoImageWrapper {
+  margin: auto;
+  position: relative;
+}
+
+.textbox {
+  color: white;
+  max-width: 880px;
+  position: absolute;
+  top: 220px;
+  padding: 0px 20px;
+  visibility: hidden;
+}
+
+#musicImgTextBox {
+/* visibility: hidden; */
+}
+
+.infoImage {
+  border: 9px solid white;
+  transition: .2s ease;
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 50%
+}
+
+.infoImage:hover {
+  opacity: 0.5;
+  /* transform: rotate(360deg); */
+}
